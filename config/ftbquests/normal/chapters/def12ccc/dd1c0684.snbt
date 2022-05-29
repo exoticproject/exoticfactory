@@ -1,0 +1,24 @@
+{
+	title: "石炭(Coal)鉱脈",
+	x: 2.5d,
+	y: 5.5d,
+	text: [
+		"石炭しか生成されない鉱脈です",
+		"バニラと違い焼かないと石炭として使えないので気をつけましょう"
+	],
+	dependencies: [
+		"7ee12446"
+	],
+	tasks: [{
+		uid: "5b4c41d1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	}],
+	rewards: [{
+		uid: "594cd3c8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

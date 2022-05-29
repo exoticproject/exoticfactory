@@ -1,0 +1,175 @@
+{
+  "consumeCatalyst": false,
+  "location": "exoticfactory:bug_working_chamber_mk1",
+  "traits": {
+    "background": "multiblocked:textures/bug_working_chamber.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 43,
+        "y": 73,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 89,
+        "y": 55,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 107,
+        "y": 55,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 125,
+        "y": 55,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 125,
+        "y": 73,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 107,
+        "y": 73,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 89,
+        "y": 73,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 125,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 107,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 89,
+        "y": 91,
+        "autoIO": false
+      }
+    ],
+    "gtce_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 85,
+      "y": 116,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 50000
+    },
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 43,
+        "y": 91,
+        "autoIO": false,
+        "tC": 64000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " AA",
+        " AA",
+        " AA"
+      ],
+      [
+        " AA",
+        "@ A",
+        " AA"
+      ],
+      [
+        " AA",
+        " AA",
+        " AA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "exoticfactory:bug_working_chamber_mk1",
+        "type": "component"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ]
+    }
+  },
+  "recipeMap": "bug_working_chamber_mk1"
+}

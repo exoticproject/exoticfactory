@@ -1,0 +1,25 @@
+{
+	title: "合金炉",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"合金精錬機は合金を簡単に焼ける機械です",
+		"ただし、蒸気版は時間がかかるのでおそらく粉を混ぜて作れない合金を作るときにしか使わないでしょう・・・"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b475590c"
+	],
+	tasks: [{
+		uid: "84dbf096",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "bbdc9aa6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

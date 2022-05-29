@@ -1,0 +1,53 @@
+{
+	title: "効率的な粉砕",
+	icon: "gregtech:machine 1 1025",
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"1度に8個のアイテムを粉砕できるマルチブロック設備です"
+	],
+	dependencies: [
+		"8d0e4e30"
+	],
+	tasks: [{
+		uid: "a6a58f24",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1025"
+		}]
+	},
+	{
+		uid: "696afc96",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 22L
+	},
+	{
+		uid: "60812d16",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1652"
+		}]
+	},
+	{
+		uid: "0b47cdfb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1651"
+		}]
+	},
+	{
+		uid: "9d99f525",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1653"
+		}]
+	}],
+	rewards: [{
+		uid: "96701e8f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

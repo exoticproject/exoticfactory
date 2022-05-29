@@ -1,0 +1,13 @@
+{
+	title: "MV時代で作れるバグ",
+	x: -3.0d,
+	y: 1.5d,
+	shape: "gear",
+	text: [
+		"粘土から取れる金属が中心です"
+	],
+	tasks: [{
+		uid: "bd164094",
+		type: "checkmark"
+	}]
+}

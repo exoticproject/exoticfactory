@@ -1,0 +1,7 @@
+{
+	title: "Ch3 : 電気時代の幕開け (LV)",
+	icon: "gregtech:machine 1 950",
+	always_invisible: false,
+	group: -532015261,
+	default_quest_shape: ""
+}

@@ -1,0 +1,7 @@
+{
+	title: "Ch4 : 鍵はアルミと石油 (MV)",
+	icon: "gregtech:meta_ingot 1 2",
+	always_invisible: false,
+	group: -532015261,
+	default_quest_shape: ""
+}

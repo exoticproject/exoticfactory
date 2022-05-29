@@ -1,0 +1,13 @@
+{
+	title: "LV時代で作れるバグ",
+	x: -3.0d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"主に純粋な元素の鉱石が対象です"
+	],
+	tasks: [{
+		uid: "6f13d08a",
+		type: "checkmark"
+	}]
+}

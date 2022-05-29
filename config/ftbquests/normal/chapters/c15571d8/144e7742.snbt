@@ -1,0 +1,23 @@
+{
+	title: "お世話になる機械その1",
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"プレート1枚をインゴット1個から作れます  やったね！"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "d4e415fe",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 140"
+		}]
+	}],
+	rewards: [{
+		uid: "4003342b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

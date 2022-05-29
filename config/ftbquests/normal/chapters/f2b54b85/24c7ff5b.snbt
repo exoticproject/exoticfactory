@@ -1,0 +1,24 @@
+{
+	title: "Sun Poowwweeer",
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"ソーラー蒸気ボイラーは太陽が登っている間蒸気を生産します",
+		"ベッドで寝るのを忘れないようにしましょう"
+	],
+	dependencies: [
+		"b475590c"
+	],
+	tasks: [{
+		uid: "2ee1073b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "df903730",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

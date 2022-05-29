@@ -1,0 +1,26 @@
+{
+	title: "電気時代の始まり・・？",
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"※まだ機械は作れません"
+	],
+	dependencies: [
+		"e1acadcd",
+		"f222ec73",
+		"5e9a76a1",
+		"ea394e15"
+	],
+	tasks: [{
+		uid: "ac6d7483",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "05b0c94a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Ch12 : ExOTic Factory (Creative)",
+	icon: "storagedrawers:upgrade_creative 1 1",
+	always_invisible: false,
+	group: -1677388096,
+	default_quest_shape: ""
+}

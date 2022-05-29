@@ -1,0 +1,33 @@
+{
+	title: "粉砕・圧縮",
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"はじめての蒸気機械を作りましょう",
+		"先に耐熱粘土を作るための2つの機械を作るのが楽です",
+		"(粉砕機は実はいらないけどレンガを4倍消費するので作らないとキツイ)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b475590c"
+	],
+	tasks: [{
+		uid: "cd70e685",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	},
+	{
+		uid: "0e413699",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "c56e84c1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

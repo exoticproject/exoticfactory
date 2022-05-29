@@ -1,0 +1,13 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "ede8ccaf",
+		type: "item",
+		items: [{
+			item: "dankstorage:dank_4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

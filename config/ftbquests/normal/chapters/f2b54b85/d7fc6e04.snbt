@@ -1,0 +1,59 @@
+{
+	title: "最初の関門、高炉の素材",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"粘土を大量に加工して作りましょう",
+		"この数は1台作るための最小数です"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"00f51d65"
+	],
+	tasks: [{
+		uid: "7156f5af",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 66L
+	},
+	{
+		uid: "24516b3a",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}],
+		count: 66L
+	},
+	{
+		uid: "9bf1952d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2525"
+		}],
+		count: 132L
+	},
+	{
+		uid: "d60f7499",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 351"
+		}],
+		count: 132L
+	},
+	{
+		uid: "69baa144",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 352"
+		}],
+		count: 132L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "61726f9a",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

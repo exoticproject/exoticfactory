@@ -1,0 +1,25 @@
+{
+	title: "ボイラーの強化",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"ボイラーを強化しちゃいましょう！",
+		"おそらく大型ボイラー作成まで使うことになります"
+	],
+	dependencies: [
+		"b475590c",
+		"572d9702"
+	],
+	tasks: [{
+		uid: "c20ad084",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "552a0967",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

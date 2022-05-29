@@ -1,0 +1,35 @@
+{
+	title: "仮想鉱石",
+	x: 1.5d,
+	y: -6.5d,
+	shape: "gear",
+	text: [
+		"バグが生み出す素材です",
+		"非常に不安定であるため、粉砕した際に4個～16個の砕けた鉱石が手に入ります",
+		"電圧が高い粉砕機で粉砕すると最大個数が増えます"
+	],
+	tasks: [{
+		uid: "373b986c",
+		type: "item",
+		title: "Any Ore(Virtual)",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any anyVirtualOre"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "anyVirtualOre"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "723486e7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

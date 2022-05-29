@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "412089a6",
+		type: "checkmark",
+		title: "ULV時代の回路(ほぼ未使用)"
+	}]
+}

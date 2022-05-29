@@ -1,0 +1,18 @@
+{
+	title: "How to Basic",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"非常によく使います"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "31a8fca7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 215"
+		}]
+	}]
+}

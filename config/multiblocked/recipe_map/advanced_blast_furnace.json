@@ -1,0 +1,80 @@
+{
+  "name": "advanced_blast_furnace",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "22ac26ff-aa67-4ebb-a206-e0bf9a268a5a",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "ore": "ingotIron"
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1b,Damage:324s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "19dee051-75bf-4969-81e9-5c5df2a41734",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 2,
+              "ore": "charcoal"
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "ore": "ingotIron"
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1b,Damage:324s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

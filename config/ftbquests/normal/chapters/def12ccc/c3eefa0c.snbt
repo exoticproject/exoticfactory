@@ -1,0 +1,32 @@
+{
+	title: "鋼に及ばぬ物",
+	x: 0.0d,
+	y: 9.0d,
+	text: [
+		"練鉄はツールの素材として優秀です",
+		"蒸気時代まではこれでツールを作りましょう"
+	],
+	dependencies: [
+		"1857489b"
+	],
+	tasks: [{
+		uid: "b3df0a54",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_nugget"
+		}],
+		count: 9L
+	},
+	{
+		uid: "90a84127",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}]
+	}],
+	rewards: [{
+		uid: "8025ea8d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

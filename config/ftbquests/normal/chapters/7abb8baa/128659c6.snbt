@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "093ab75f",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}]
+}

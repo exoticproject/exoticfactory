@@ -1,0 +1,19 @@
+{
+	title: "これ飲める？",
+	x: 3.5d,
+	y: -5.5d,
+	shape: "square",
+	text: [
+		"25%の確率(機械の段階ボーナス無し)でバグが生還します"
+	],
+	tasks: [{
+		uid: "26e5c41d",
+		type: "fluid",
+		fluid: "bnsone"
+	}],
+	rewards: [{
+		uid: "96f840f8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	icon: "requious:basic_bug_summoning_chamber",
+	x: -1.5d,
+	y: -5.5d,
+	shape: "square",
+	text: [
+		"鉱石箱と液体金属、エネルギーを使ってバグを召喚します"
+	],
+	tasks: [{
+		uid: "2ec212b5",
+		type: "item",
+		items: [{
+			item: "requious:basic_bug_summoning_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "042d052a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

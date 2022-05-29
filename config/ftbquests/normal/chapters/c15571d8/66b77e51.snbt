@@ -1,0 +1,19 @@
+{
+	title: "回路王に、俺はなる",
+	x: 7.5d,
+	y: -2.5d,
+	text: [
+		"えっ？エミッタのレシピは変えないのかって？",
+		"使用頻度少ないからどうでもいいんですよ・・"
+	],
+	dependencies: [
+		"5eb16852"
+	],
+	tasks: [{
+		uid: "b9eaae38",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 635"
+		}]
+	}]
+}

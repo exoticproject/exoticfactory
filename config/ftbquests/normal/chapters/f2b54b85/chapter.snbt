@@ -1,0 +1,7 @@
+{
+	title: "Ch2 : 蒸気の音がする工場",
+	icon: "gregtech:machine 1 1",
+	always_invisible: false,
+	group: -532015261,
+	default_quest_shape: ""
+}

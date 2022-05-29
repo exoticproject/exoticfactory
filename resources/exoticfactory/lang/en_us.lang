@@ -1,0 +1,50 @@
+item.material.oreprefix.bug=%s Bug
+item.material.oreprefix.virtualore=%s Ore (Virtual)
+item.material.oreprefix.bugData=%s Bug Data
+item.material.oreprefix.oreBox=%s Ore Box
+
+material.thermite=Thermite
+material.bnsone=Bug Nutrient Solution(BNS) I
+material.bugmatter=Bug Matter
+material.exonium=Exonium
+material.exosteel=Exosteel
+
+multiblocked:multiblock_info=Multiblock Info
+
+tile.basic_bug_working_chamber.name=§9Basic §eBug §6Working§e Chamber§r
+tile.basic_bug_summoning_chamber.name=§9Basic §eBug §dSummoning§e Chamber§r
+tile.basic_bug_cloning_chamber.name=§9Basic §eBug §cCloning§e Chamber§r
+tile.basic_bug_analyzing_chamber.name=§9Basic §eBug §bAnalyzing§e Chamber§r
+
+tile.exoticfactory.primitive_output_bus.name=EXO : Primitive Item Output Bus
+tile.exoticfactory.primitive_input_bus.name=EXO : Primitive Item Input Bus
+tile.exoticfactory.advanced_blast_furnace.name=EXO : Advanced Blast Furnace Controller
+tile.exoticfactory.bug_summoning_altar.name=EXO : Bug Summoning Altar Controller
+tile.exoticfactory.bug_working_chamber_mk1.name=EXO : Basic Bug Working Chamber
+
+requious.jei.recipe.basic_bug_working_chamber=Basic Bug Working
+requious.jei.recipe.basic_bug_summoning_chamber=Basic Bug Summoning
+
+multiblocked.recipe_map.advanced_blast_furnace=EXO : Advanced Blast Furnace
+multiblocked.recipe_map.bug_summoning_altar=EXO : Bug Summoning Altar
+multiblocked.recipe_map.bug_working_chamber_mk1=EXO : Basic Bug Working Chamber
+
+
+advanced_blast_furnace.name=Advanced Blast Furnace
+bug_summoning_altar.name=Bug Summoning Altar
+bug_working_chamber_mk1.name=Basic Bug Working Chamber
+
+exoticfactory.advanced_blast_furnace.description=An Multiblock to Smelt Steel.
+exoticfactory.bug_summoning_altar.description=An Multiblock to summon cute bugs.
+exoticfactory.bug_working_chamber_mk1.description=An Basic Multiblock to obtain virtual ore by bugs.
+
+recipemap.machine_assembler_recipe.name=Machine Assembler
+recipemap.parts_assembler_recipe.name=Parts Assembler
+
+devtech.machine.machine_assembler.steel.name=High Pressure Steam Machine Assembler
+devtech.machine.machine_assembler.lv.name=Basic Machine Assembler
+devtech.machine.machine_assembler.mv.name=Advanced Machine Assembler
+
+devtech.machine.parts_assembler.steel.name=High Pressure Steam Parts Assembler
+devtech.machine.parts_assembler.lv.name=Basic Parts Assembler
+devtech.machine.parts_assembler.mv.name=Advanced Parts Assembler

@@ -1,0 +1,6 @@
+{
+	title: "Early Game (開始～HV)",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

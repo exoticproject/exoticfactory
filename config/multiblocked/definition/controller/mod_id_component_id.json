@@ -1,0 +1,100 @@
+{
+  "consumeCatalyst": false,
+  "location": "exoticfactory:advanced_blast_furnace",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:advanced_blast_furnace",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "B@B",
+        "AAA",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "A A",
+        "A A",
+        "A A"
+      ],
+      [
+        "AAA",
+        "AAA",
+        "AAA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "exoticfactory:advanced_blast_furnace",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "exoticfactory:primitive_input_bus",
+            "meta": 0
+          },
+          {
+            "id": "exoticfactory:primitive_output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ]
+    }
+  },
+  "recipeMap": "advanced_blast_furnace"
+}

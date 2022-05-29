@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 12.5d,
+	shape: "hexagon",
+	text: [
+		"ブロンズを作成しましょう",
+		"異常な量使うので量産することをおすすめします・・・"
+	],
+	dependencies: [
+		"4f984d08"
+	],
+	tasks: [{
+		uid: "4b481466",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 260"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "350d768a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

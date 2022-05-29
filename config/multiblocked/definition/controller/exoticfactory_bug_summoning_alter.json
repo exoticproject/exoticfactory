@@ -1,0 +1,339 @@
+{
+  "consumeCatalyst": false,
+  "location": "exoticfactory:bug_summoning_altar",
+  "traits": {
+    "background": "multiblocked:textures/bug_summoning_alter.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 43,
+        "y": 54,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 54,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 54,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 43,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 43,
+        "y": 90,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 90,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 90,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 126,
+        "y": 72,
+        "autoIO": false
+      }
+    ],
+    "gtce_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 106,
+      "y": 94,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 5000000
+    },
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 108,
+        "autoIO": false,
+        "tC": 4000000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "     AAA     ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "   AABBBAA   ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "  ABBCCCBBA  ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        " ABCCCCCCCBA ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        " ABCDDCDDCBA ",
+        "    D   D    ",
+        "    D   D    ",
+        "    D   D    ",
+        "    FFFFF    "
+      ],
+      [
+        "ABCCDDCDDCCBA",
+        "             ",
+        "             ",
+        "             ",
+        "    F   F    "
+      ],
+      [
+        "ABCCCCCCCCCBA",
+        "      @      ",
+        "             ",
+        "             ",
+        "    F   F    "
+      ],
+      [
+        "ABCCDDCDDCCBA",
+        "             ",
+        "             ",
+        "             ",
+        "    F   F    "
+      ],
+      [
+        " ABCDDCDDCBA ",
+        "    D   D    ",
+        "    D   D    ",
+        "    D   D    ",
+        "    FFFFF    "
+      ],
+      [
+        " ABCCCCCCCBA ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "  ABBCCCBBA  ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "   AABBBAA   ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "     AAA     ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "minecraft:obsidian",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "exoticfactory:bug_summoning_altar",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "minecraft:coal_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "extendedcrafting:storage",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  },
+  "recipeMap": "bug_summoning_altar"
+}

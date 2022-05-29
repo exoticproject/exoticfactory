@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"ダイヤモンド鉱脈に生成されます"
+	],
+	tasks: [{
+		uid: "0af9b2b5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_exonium_0"
+		}]
+	}]
+}

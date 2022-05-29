@@ -1,0 +1,7 @@
+{
+	title: "Ex3 : 最強倉庫AE2",
+	icon: "appliedenergistics2:energy_acceptor",
+	always_invisible: false,
+	group: 1154139977,
+	default_quest_shape: ""
+}

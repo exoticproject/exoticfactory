@@ -1,0 +1,15 @@
+{
+	title: "光らない方",
+	x: 5.0d,
+	y: -2.5d,
+	dependencies: [
+		"667868c3"
+	],
+	tasks: [{
+		uid: "6a432f05",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 521"
+		}]
+	}]
+}

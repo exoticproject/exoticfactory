@@ -1,0 +1,121 @@
+{
+  "consumeCatalyst": false,
+  "location": "exoticfactory:primitive_large_solar_boiler",
+  "traits": {
+    "background": "multiblocked:textures/bug_summoning_alter.png",
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 43,
+        "y": 72,
+        "autoIO": false,
+        "tC": 1000
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 126,
+        "y": 72,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "gregtech:metal_casing",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "   ",
+        "   ",
+        "AAA"
+      ],
+      [
+        " @ ",
+        " B ",
+        "AAA"
+      ],
+      [
+        "   ",
+        "   ",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "minecraft:glowstone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "exoticfactory:primitive_large_solar_boiler",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "primitive_large_solar_boiler"
+}

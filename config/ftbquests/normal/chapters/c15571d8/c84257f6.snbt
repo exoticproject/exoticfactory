@@ -1,0 +1,68 @@
+{
+	title: "LVの素材たち",
+	icon: "gregtech:meta_item_1 1 127",
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"コレだけあれば足りるだろ！(フラグ)"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "b7c91670",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 127"
+		}],
+		count: 40L
+	},
+	{
+		uid: "54f072b4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 172"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1692aa50",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 142"
+		}],
+		count: 8L
+	},
+	{
+		uid: "3ba724a2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 187"
+		}],
+		count: 8L
+	},
+	{
+		uid: "87501905",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any circuitLv"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "circuitLv"
+				}
+			}
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b0181d78",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

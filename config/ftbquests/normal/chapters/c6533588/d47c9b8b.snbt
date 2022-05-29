@@ -1,0 +1,35 @@
+{
+	title: "かわいいバグたち",
+	x: -0.5d,
+	y: -6.5d,
+	shape: "gear",
+	text: [
+		"バグはこのModpackでの資源生産の手段の1つです",
+		"バグ栄養液(別称BNS)が好物(らしい)",
+		"高級なバグ栄養液を与えると死ににくくなります"
+	],
+	tasks: [{
+		uid: "ca7bc1d8",
+		type: "item",
+		title: "Any Bug",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any anyBug"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "anyBug"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "08d3ebe4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

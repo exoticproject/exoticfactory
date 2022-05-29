@@ -1,0 +1,41 @@
+{
+	title: "追加材料の採取",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"これらの素材も大量に使います",
+		"砂漠と川を発見しておくと楽になります"
+	],
+	dependencies: [
+		"dda8073e"
+	],
+	tasks: [{
+		uid: "104d71d3",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f5c40fc0",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 64L
+	},
+	{
+		uid: "8195767b",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "44f74315",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "暗闇を照らす物",
+	icon: "minecraft:torch",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"木炭はかまどで作れません！",
+		"最初の頃の松明は石炭or樹液で作ることになります",
+		"ゴムの木を伐採して樹液を手に入れましょう、今後も使用するので栽培するのがおすすめです"
+	],
+	dependencies: [
+		"dda8073e"
+	],
+	tasks: [{
+		uid: "6826abd0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 438"
+		}],
+		count: 4L
+	},
+	{
+		uid: "556d7329",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "1d8e4c01",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

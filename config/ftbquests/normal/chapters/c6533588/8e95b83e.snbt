@@ -1,0 +1,22 @@
+{
+	icon: "requious:basic_bug_working_chamber",
+	x: 1.5d,
+	y: -5.5d,
+	shape: "square",
+	text: [
+		"バグから仮想鉱石を入手する機械です",
+		"※2番目までのBNSしか使えません"
+	],
+	tasks: [{
+		uid: "2681da4e",
+		type: "item",
+		items: [{
+			item: "requious:basic_bug_working_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "2f37549c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"水を永遠に自動で汲んでくれるマルチブロック機械です",
+		"水が多いバイオームに建てると大量に汲めます"
+	],
+	dependencies: [
+		"b475590c"
+	],
+	tasks: [{
+		uid: "b87db16d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1648"
+		}]
+	},
+	{
+		uid: "cec0ded4",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "1859636f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_103"
+		}],
+		count: 10L
+	},
+	{
+		uid: "969f91e4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1649"
+		}]
+	}],
+	rewards: [{
+		uid: "52d82e75",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

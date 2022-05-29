@@ -1,0 +1,24 @@
+{
+	title: "ここからが蒸気ソーラーなんです",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"普通の固形燃料ボイラーと併用して使うのがおすすめです"
+	],
+	dependencies: [
+		"24c7ff5b",
+		"572d9702"
+	],
+	tasks: [{
+		uid: "218ddda5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "1e2f0c0b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

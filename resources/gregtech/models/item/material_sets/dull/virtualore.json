@@ -1,0 +1,8 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "gregtech:items/material_sets/dull/virtualore",
+	  "layer1": "gregtech:items/material_sets/dull/virtualore_overlay"
+	}
+  }
+  

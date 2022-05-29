@@ -1,0 +1,66 @@
+{
+	title: "序盤の食料",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"火打石で作ったGregtechの剣は炎上効果が付いています",
+		"雨以外の時にそれを使って動物を狩ると、焼いた状態で肉がドロップします",
+		"ただし、金属が使えるようになると更に効率的に肉を集められるので狩りすぎないようにしましょう",
+		"また、クワを使って農業をする選択もあります",
+		"バケツはまだ作れないので海か川沿いに畑を作ることになります"
+	],
+	dependencies: [
+		"dda8073e"
+	],
+	tasks: [{
+		uid: "326d1903",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "flint",
+					MaxDurability: 80,
+					HarvestLevel: 1,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f
+				},
+				ench: [{
+					id: 20s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f657513",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 4s,
+			tag: {
+				GT.ToolStats: {
+					Material: "flint",
+					MaxDurability: 80,
+					HarvestLevel: 1,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "851fc78d",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 4
+	},
+	{
+		uid: "f69813a9",
+		type: "item",
+		item: "minecraft:potato",
+		count: 4
+	}]
+}

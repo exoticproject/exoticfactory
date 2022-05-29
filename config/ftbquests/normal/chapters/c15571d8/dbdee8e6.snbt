@@ -1,0 +1,18 @@
+{
+	title: "お世話になる機械その2",
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"ワイヤーが沢山作れます やったね！"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "9247c3f7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}]
+}

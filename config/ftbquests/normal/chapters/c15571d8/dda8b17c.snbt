@@ -1,0 +1,12 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"ddc3092f"
+	],
+	tasks: [{
+		uid: "177defe3",
+		type: "fluid",
+		fluid: "iron_iii_chloride"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"硫黄と樹液を抽出したパルプを使ってゴムを作りましょう",
+		"ケーブルの被覆にかなり使います"
+	],
+	tasks: [{
+		uid: "972cd84f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}]
+	},
+	{
+		uid: "18e9e0f4",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "25807116",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

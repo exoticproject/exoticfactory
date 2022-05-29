@@ -1,0 +1,17 @@
+{
+	title: "1万℃ぐらいなら耐えられます",
+	x: 5.0d,
+	y: 3.5d,
+	dependencies: [
+		"68a41c64",
+		"320ce5ae"
+	],
+	tasks: [{
+		uid: "fc73e5e7",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}],
+		count: 12L
+	}]
+}

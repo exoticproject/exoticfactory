@@ -1,0 +1,7 @@
+{
+	title: "Ch8 : 始まる核融合 終わりの始まり (LuV)",
+	icon: "gregtech:machine 1 1020",
+	always_invisible: false,
+	group: 1533227235,
+	default_quest_shape: ""
+}

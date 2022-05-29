@@ -1,0 +1,12 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	shape: "square",
+	tasks: [{
+		uid: "d8aee29a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 633"
+		}]
+	}]
+}

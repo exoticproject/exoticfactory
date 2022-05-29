@@ -1,0 +1,46 @@
+{
+	title: "高炉の強化",
+	icon: "exoticfactory:advanced_blast_furnace",
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"普通の鉄インゴットから直接鋼を10秒で焼けます！"
+	],
+	dependencies: [
+		"d4ceabbb"
+	],
+	tasks: [{
+		uid: "167bd8f0",
+		type: "item",
+		items: [{
+			item: "exoticfactory:advanced_blast_furnace"
+		}]
+	},
+	{
+		uid: "4169647f",
+		type: "item",
+		items: [{
+			item: "exoticfactory:primitive_output_bus"
+		}]
+	},
+	{
+		uid: "fd07d651",
+		type: "item",
+		items: [{
+			item: "exoticfactory:primitive_input_bus"
+		}]
+	},
+	{
+		uid: "671f307b",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "a20216bd",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

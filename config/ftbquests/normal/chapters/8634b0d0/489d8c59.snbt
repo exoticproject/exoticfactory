@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "a05defa7",
+		type: "checkmark",
+		title: "ZPM時代の回路"
+	}]
+}

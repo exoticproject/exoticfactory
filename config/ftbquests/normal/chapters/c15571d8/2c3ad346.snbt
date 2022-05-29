@@ -1,0 +1,19 @@
+{
+	title: "ポテチの袋の裏側のやつ",
+	x: 9.5d,
+	y: 3.5d,
+	text: [
+		"次の時代に使うので大量に作っておきましょう！"
+	],
+	dependencies: [
+		"e44cbce9"
+	],
+	tasks: [{
+		uid: "417d1e51",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Ex1 : 電子回路",
+	icon: "gregtech:meta_item_1 1 403",
+	always_invisible: false,
+	group: 1154139977,
+	default_quest_shape: ""
+}

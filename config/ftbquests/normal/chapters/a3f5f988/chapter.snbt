@@ -1,0 +1,7 @@
+{
+	title: "Ch10 : 肉と機械 (UV)",
+	icon: "gregtech:meta_item_1 1 646",
+	always_invisible: false,
+	group: 1096840973,
+	default_quest_shape: ""
+}

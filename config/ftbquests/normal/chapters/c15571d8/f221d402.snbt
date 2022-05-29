@@ -1,0 +1,18 @@
+{
+	title: "狂気の沙汰",
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"MV機械組立機でアナザーレシピが開放されます"
+	],
+	dependencies: [
+		"2c3ad346"
+	],
+	tasks: [{
+		uid: "ec4974af",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 987"
+		}]
+	}]
+}

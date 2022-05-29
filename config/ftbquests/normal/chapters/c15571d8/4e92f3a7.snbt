@@ -1,0 +1,30 @@
+{
+	title: "小さな工場",
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"蒸気版より加工が早くなる他、MV機械の作成に後々必要です"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "ebb3ff59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32023"
+		}]
+	},
+	{
+		uid: "534cd613",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32003"
+		}]
+	}],
+	rewards: [{
+		uid: "e11aba04",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

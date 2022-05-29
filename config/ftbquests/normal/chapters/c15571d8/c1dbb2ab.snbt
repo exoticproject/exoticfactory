@@ -1,0 +1,18 @@
+{
+	title: "鉱石処理の始まり",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"ガリウムを手に入れよう！"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "c8ed8d9e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 185"
+		}]
+	}]
+}

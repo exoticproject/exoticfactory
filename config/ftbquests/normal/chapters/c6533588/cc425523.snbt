@@ -1,0 +1,33 @@
+{
+	title: "鉱石箱",
+	x: -1.5d,
+	y: -6.5d,
+	shape: "gear",
+	text: [
+		"任意の鉱石を1st圧縮機に入れると作れます",
+		"バグの作成に使用します"
+	],
+	tasks: [{
+		uid: "67344c5e",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any anyOreBox"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "anyOreBox"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cae172fa",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

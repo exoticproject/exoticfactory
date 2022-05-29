@@ -1,0 +1,50 @@
+item.material.oreprefix.bug=%sバグ
+item.material.oreprefix.virtualore=%s鉱石(仮想)
+item.material.oreprefix.bugData=%sバグデータ
+item.material.oreprefix.oreBox=%s鉱石箱
+
+material.thermite=テルミット
+material.bnsone=バグ栄養液(BNS) I
+material.bugmatter=バグ・マター
+material.exonium=エクゾニウム
+material.exosteel=エクゾスチール
+
+multiblocked:multiblock_info=マルチブロック情報
+
+tile.basic_bug_working_chamber.name=§9基本型§eバグ§6労働§eチャンバー§r
+tile.basic_bug_summoning_chamber.name=§9基本型§eバグ§d召喚§eチャンバー§r
+tile.basic_bug_cloning_chamber.name=§9基本型§eバグ§9複製§eチャンバー§r
+tile.basic_bug_analyzing_chamber.name=§9基本型§eバグ§b解析§eチャンバー§r
+
+
+tile.exoticfactory.primitive_output_bus.name=EXO : 初期型アイテム搬出バス
+tile.exoticfactory.primitive_input_bus.name=EXO : 初期型アイテム搬入バス
+tile.exoticfactory.advanced_blast_furnace.name=EXO : 強化高炉コントローラ
+tile.exoticfactory.bug_summoning_altar.name=EXO : バグ召喚祭壇コントローラ
+tile.exoticfactory.bug_working_chamber_mk1.name=EXO : 基本バグ労働チャンバー
+
+requious.jei.recipe.basic_bug_working_chamber=基本型バグ労働
+
+multiblocked.recipe_map.advanced_blast_furnace=EXO : 強化高炉
+multiblocked.recipe_map.bug_summoning_altar=EXO : バグ召喚祭壇
+multiblocked.recipe_map.bug_working_chamber_mk1=EXO : 基本バグ労働チャンバー
+
+
+advanced_blast_furnace.name=強化高炉
+bug_summoning_altar.name=バグ召喚祭壇
+bug_working_chamber_mk1.name=基本バグ労働チャンバー
+
+exoticfactory.advanced_blast_furnace.description=鋼鉄を焼くための高度な高炉。
+exoticfactory.bug_summoning_altar.description=かわいいバグを召喚するための祭壇。
+exoticfactory.bug_working_chamber_mk1.description=バグから仮想鉱石を得るための機械。
+
+recipemap.machine_assembler_recipe.name=機械組立機
+recipemap.parts_assembler_recipe.name=機械パーツ組立機
+
+devtech.machine.machine_assembler.steel.name=高圧蒸気機械組立機
+devtech.machine.machine_assembler.lv.name=基本型機械組立機
+devtech.machine.machine_assembler.mv.name=発展型機械組立機
+
+devtech.machine.parts_assembler.steel.name=高圧蒸気機械パーツ組立機
+devtech.machine.parts_assembler.lv.name=基本型機械パーツ組立機
+devtech.machine.parts_assembler.mv.name=発展型機械パーツ組立機

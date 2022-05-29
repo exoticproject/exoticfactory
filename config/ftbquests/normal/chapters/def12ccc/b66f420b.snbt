@@ -1,0 +1,112 @@
+{
+	title: "プロローグ",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"ようこそ ExOtic Factoryに！",
+		"このVRプログラムは工場の作り方を学ぶための物です",
+		"また、最初のスタートを楽にするためにいくつかの物資を用意しています！"
+	],
+	tasks: [{
+		uid: "d1cbfdda",
+		type: "checkmark",
+		icon: "minecraft:book"
+	}],
+	rewards: [{
+		uid: "02e8d99c",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 736s,
+			tag: {
+				Charge: 420000L
+			}
+		}
+	},
+	{
+		uid: "14df2370",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 466s,
+			tag: {
+				Charge: 100000L
+			}
+		}
+	},
+	{
+		uid: "8e2a7c4d",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				ench: [{
+					lvl: 5,
+					id: 34
+				},
+				{
+					id: 32s,
+					lvl: 3s
+				},
+				{
+					id: 70s,
+					lvl: 1s
+				}],
+				GT.ToolStats: {
+					Material: "diamond"
+				}
+			}
+		}
+	},
+	{
+		uid: "d2475670",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 3s,
+			tag: {
+				ench: [{
+					lvl: 5,
+					id: 34
+				},
+				{
+					id: 32s,
+					lvl: 3s
+				},
+				{
+					id: 70s,
+					lvl: 1s
+				}],
+				GT.ToolStats: {
+					Material: "diamond"
+				}
+			}
+		}
+	},
+	{
+		uid: "a522e0a7",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 2s,
+			tag: {
+				ench: [{
+					lvl: 5,
+					id: 34
+				},
+				{
+					lvl: 3,
+					id: 32
+				},
+				{
+					lvl: 1,
+					id: 70
+				}],
+				GT.ToolStats: {
+					Material: "diamond"
+				}
+			}
+		}
+	}]
+}

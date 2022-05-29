@@ -1,0 +1,18 @@
+{
+	title: "Microsoftのアレ",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"ミキサーが作れたのでテルミットを作りやすくなります！"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "b84dd7ec",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 470"
+		}]
+	}]
+}

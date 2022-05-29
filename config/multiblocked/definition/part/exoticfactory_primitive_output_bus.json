@@ -1,0 +1,80 @@
+{
+  "canShared": true,
+  "location": "exoticfactory:primitive_output_bus",
+  "traits": {
+    "background": "multiblocked:textures/primitive_hatch_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 61,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 97,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 61,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 97,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 61,
+        "y": 92,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 92,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 97,
+        "y": 92,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:advanced_blast_furnace",
+    "frontTexture": "multiblocked:primitive_hatch_out",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}

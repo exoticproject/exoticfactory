@@ -1,0 +1,34 @@
+{
+	title: "バグデータ",
+	x: 0.5d,
+	y: -6.5d,
+	shape: "gear",
+	text: [
+		"バグの情報を刻んだデータです",
+		"これとマターを使用することで、バグを複製できます",
+		"いちいちバグを召喚しなくて済むようになります"
+	],
+	tasks: [{
+		uid: "fd294350",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any anyBugData"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "anyBugData"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "42f2a5c1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

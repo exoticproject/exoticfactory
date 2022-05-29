@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "c1cee11f",
+		type: "checkmark",
+		title: "HV時代の回路"
+	}]
+}

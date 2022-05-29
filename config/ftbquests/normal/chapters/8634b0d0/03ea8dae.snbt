@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "5139c114",
+		type: "checkmark",
+		title: "EV時代の回路"
+	}]
+}

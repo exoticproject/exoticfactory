@@ -1,0 +1,30 @@
+{
+	title: "磁鉄鉱(Magnetite)鉱脈",
+	x: -2.5d,
+	y: 5.5d,
+	text: [
+		"鉄の主な入手源の一つです。鉄だけを手に入れるには他の種類の鉱脈はありますが、金も手に入るためおすすめです"
+	],
+	dependencies: [
+		"7ee12446"
+	],
+	tasks: [{
+		uid: "26348f48",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnetite_0"
+		}]
+	},
+	{
+		uid: "148b1a6d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_gold_0"
+		}]
+	}],
+	rewards: [{
+		uid: "345310b2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

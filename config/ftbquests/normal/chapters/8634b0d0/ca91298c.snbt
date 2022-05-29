@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "05c5a9ee",
+		type: "checkmark",
+		title: "LuV時代の回路"
+	}]
+}

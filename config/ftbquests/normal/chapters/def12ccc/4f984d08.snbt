@@ -1,0 +1,114 @@
+{
+	title: "基本ツール達",
+	x: 0.0d,
+	y: 10.5d,
+	text: [
+		"JEIを活用してこれらのツールを作りましょう"
+	],
+	dependencies: [
+		"c3eefa0c"
+	],
+	tasks: [{
+		uid: "8b862583",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 6s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86b12afb",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 9s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "36454076",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 11s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38a9bd3d",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 5s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b2c58f2",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 8s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "33fc7476",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 13s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "988d3b7c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 12s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c61738c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

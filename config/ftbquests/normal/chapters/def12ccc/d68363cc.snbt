@@ -1,0 +1,24 @@
+{
+	title: "序盤の燃料",
+	x: -1.5d,
+	y: 12.5d,
+	text: [
+		"Thermiteはアイテム80個分の燃焼時間を持つ燃料です",
+		"序盤はかまど、そして後に作れるボイラーにも使えます"
+	],
+	dependencies: [
+		"4f984d08"
+	],
+	tasks: [{
+		uid: "7a252e6a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32000"
+		}]
+	}],
+	rewards: [{
+		uid: "c1044cdd",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Primitive Circuit Assember ...?",
+	icon: "minecraft:crafting_table",
+	x: -0.5d,
+	y: -3.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "58535a20",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

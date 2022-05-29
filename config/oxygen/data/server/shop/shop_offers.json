@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1652946498958,
+    "amount": 16,
+    "price": 1,
+    "discount": 0,
+    "itemstack": {
+      "registry_name": "minecraft:dye",
+      "damage": 15,
+      "itemstack_nbt": "",
+      "capabilities_nbt": ""
+    }
+  }
+]

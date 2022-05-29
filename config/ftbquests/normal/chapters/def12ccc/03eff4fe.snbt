@@ -1,0 +1,34 @@
+{
+	title: "最初のマルチブロック",
+	x: -1.5d,
+	y: 10.5d,
+	text: [
+		"コークス炉を作りましょう",
+		"チャンク(F3 + Gで見れます)を跨がないように設置してください",
+		"3台～4台ほど作ると楽になります",
+		"複数置く際は、筐体を共有して設置できます"
+	],
+	dependencies: [
+		"4f984d08"
+	],
+	tasks: [{
+		uid: "8040f06f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}]
+	},
+	{
+		uid: "0c96542a",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "092ec9fe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

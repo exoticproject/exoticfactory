@@ -1,0 +1,23 @@
+[
+  {
+    "id": 100,
+    "name": "Operator",
+    "name_color": "aqua",
+    "prefix": "",
+    "username_color": "gray",
+    "prefix_color": "gray",
+    "chat_color": "gray",
+    "privileges": [
+      {
+        "id": 10,
+        "type": 0,
+        "value": true
+      },
+      {
+        "id": 1500,
+        "type": 0,
+        "value": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+	title: "なんでもこなせる万能ましん",
+	x: -0.5d,
+	y: 3.5d,
+	text: [
+		"組立機(無印)を作りましょう フェノール基盤作成に使います"
+	],
+	dependencies: [
+		"68a41c64"
+	],
+	tasks: [{
+		uid: "30d2ae6c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 110"
+		}]
+	}]
+}

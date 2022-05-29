@@ -1,0 +1,31 @@
+{
+	title: "黄銅鉱(Chalcopyrite)鉱脈",
+	x: -1.0d,
+	y: 5.5d,
+	text: [
+		"銅が手に入る鉱脈は他にもありますが、一番銅が含まれている鉱脈です",
+		"鉄もそれなりに手に入りますが、おそらく足りないと思います・・・"
+	],
+	dependencies: [
+		"7ee12446"
+	],
+	tasks: [{
+		uid: "b629261f",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}]
+	},
+	{
+		uid: "c25c553d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "1fd2dade",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

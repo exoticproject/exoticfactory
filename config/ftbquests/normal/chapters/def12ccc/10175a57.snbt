@@ -1,0 +1,31 @@
+{
+	title: "錫(Tin)鉱脈",
+	x: 1.0d,
+	y: 5.5d,
+	text: [
+		"錫のみ大量に生成される鉱脈です",
+		"錫石からは2個錫インゴットが作れるので1鉱脈掘るだけでしばらく賄えます"
+	],
+	dependencies: [
+		"7ee12446"
+	],
+	tasks: [{
+		uid: "cff4f400",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tin_0"
+		}]
+	},
+	{
+		uid: "bf50f53b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cassiterite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "30f8cd95",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

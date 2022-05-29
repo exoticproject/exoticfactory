@@ -1,0 +1,15 @@
+{
+	title: "マジよくね？",
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"320ce5ae"
+	],
+	tasks: [{
+		uid: "46984422",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 382"
+		}]
+	}]
+}

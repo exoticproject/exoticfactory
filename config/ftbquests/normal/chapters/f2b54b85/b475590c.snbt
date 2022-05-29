@@ -1,0 +1,40 @@
+{
+	title: "ボイラーと色々と",
+	x: -1.5d,
+	y: -1.0d,
+	text: [
+		"JEIを活用してこれらの機械を作りましょう",
+		"ボイラーの空焚きは危険です"
+	],
+	dependencies: [
+		"31dd0c6a"
+	],
+	tasks: [{
+		uid: "c69ad6e3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	},
+	{
+		uid: "7e0a7a08",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_normal 1 2037"
+		}],
+		count: 4L
+	},
+	{
+		uid: "24a14e3e",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e23c824f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

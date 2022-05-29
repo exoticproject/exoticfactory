@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -5.5d,
+	shape: "square",
+	text: [
+		"バグを解析しデータにする機械です",
+		"また、モードを切り替えることでバグマターを生産できます"
+	],
+	tasks: [{
+		uid: "466d43bc",
+		type: "item",
+		items: [{
+			item: "requious:basic_bug_analyzing_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "7c40de64",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

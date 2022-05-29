@@ -1,0 +1,25 @@
+{
+	title: "蒸気式ハンマー",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"各種プレートを2インゴットから3枚作れます",
+		"大量にプレートを使う前に作ることをおすすめします"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b475590c"
+	],
+	tasks: [{
+		uid: "35a04daf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "760f5d48",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

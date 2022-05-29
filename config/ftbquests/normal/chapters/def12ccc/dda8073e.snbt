@@ -1,0 +1,46 @@
+{
+	title: "やっぱり最初は木材と石材",
+	icon: "minecraft:log",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"木材と丸石をいくつか採取しましょう",
+		"Gregtechの斧は一括破壊機能が付いています",
+		"また、Shiftキー連打で苗木の成長を加速できます"
+	],
+	dependencies: [
+		"b66f420b"
+	],
+	tasks: [{
+		uid: "9a567b09",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "c7b48048",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d69d40ae",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

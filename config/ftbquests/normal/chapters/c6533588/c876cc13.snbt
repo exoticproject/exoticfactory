@@ -1,0 +1,24 @@
+{
+	title: "Requious Fraktoの機械について",
+	icon: "requious:shape",
+	x: -4.5d,
+	y: -5.5d,
+	shape: "octagon",
+	text: [
+		"このModpackでは多数のカスタム機械を追加しています",
+		"主にDevtechのGreg機械、Multiblockedのマルチブロック、そしてRequiousFraktoの機械です",
+		"",
+		"このクエストではRequiousFraktoの機械すべてについて説明します",
+		"これらの機械たちは搬出と搬入の面が決まっています",
+		"",
+		"§b搬入(アイテム・液体)   :§a横§r",
+		"§b搬出 (アイテム・液体)  :§a全面§r",
+		"§bエネルギー                    :§a全面§r",
+		"",
+		"§c§l§n搬出先が完全に埋まるとアイテムが消失するバグがあります！§r気をつけましょう。"
+	],
+	tasks: [{
+		uid: "ce3d0b84",
+		type: "checkmark"
+	}]
+}

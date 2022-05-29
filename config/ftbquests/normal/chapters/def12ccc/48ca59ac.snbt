@@ -1,0 +1,38 @@
+{
+	title: "個性豊かなかまど達",
+	x: -1.5d,
+	y: 8.0d,
+	text: [
+		"かまどですが、鉱石があれば強化することができます",
+		"ダイヤかまどを2台ほど置けばしばらくは足りるでしょう。"
+	],
+	dependencies: [
+		"1857489b"
+	],
+	tasks: [{
+		uid: "1283c91c",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock"
+		}]
+	},
+	{
+		uid: "089e31e5",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 1"
+		}]
+	},
+	{
+		uid: "2f04c8e2",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "88c57a3f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

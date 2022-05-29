@@ -1,0 +1,7 @@
+{
+	title: "Ex4 : QoLの向上 (ストレージ・輸送系)",
+	icon: "dankstorage:dank_7",
+	always_invisible: false,
+	group: 1154139977,
+	default_quest_shape: ""
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -5.5d,
+	shape: "square",
+	text: [
+		"バグマターとデータを使用しバグを複製する機械です"
+	],
+	tasks: [{
+		uid: "c715cbdf",
+		type: "item",
+		items: [{
+			item: "requious:basic_bug_cloning_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "3419e7e1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

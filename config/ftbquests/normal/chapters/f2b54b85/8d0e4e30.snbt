@@ -1,0 +1,21 @@
+{
+	title: "粉砕 改",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"00f51d65",
+		"572d9702"
+	],
+	tasks: [{
+		uid: "a0fad3ac",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "6898c7f1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

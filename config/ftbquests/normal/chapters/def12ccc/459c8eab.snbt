@@ -1,0 +1,34 @@
+{
+	title: "超効率的な狩猟",
+	x: 1.5d,
+	y: 10.5d,
+	text: [
+		"このツールはドロップ増加が付いているため、エンダーマンや動物狩りにとても便利です"
+	],
+	dependencies: [
+		"4f984d08"
+	],
+	tasks: [{
+		uid: "844212eb",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 16s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				},
+				ench: [{
+					id: 21s,
+					lvl: 3s
+				}]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04e5ff11",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

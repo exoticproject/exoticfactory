@@ -1,0 +1,35 @@
+{
+	title: "鋼の時代",
+	x: 0.5d,
+	y: 1.0d,
+	shape: "pentagon",
+	text: [
+		"1台だけでは足りないので3台ぐらい作っておきましょう",
+		"鋼鉄も次の時代でかなり使うので量産することをおすすめします"
+	],
+	dependencies: [
+		"d7fc6e04"
+	],
+	tasks: [{
+		uid: "ac4c9843",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	},
+	{
+		uid: "b5f01d44",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "cb5363b2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}]
+	}]
+}

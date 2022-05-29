@@ -1,0 +1,19 @@
+{
+	title: "EBF！ EBF！",
+	x: 7.5d,
+	y: 3.5d,
+	text: [
+		"LV機械組立機だと異常なコストですがMVになれば楽になるのでご安心を"
+	],
+	dependencies: [
+		"bd9cf583",
+		"5eb16852"
+	],
+	tasks: [{
+		uid: "84e1b844",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	icon: "devtech:meta_bug 1 55",
+	x: 3.5d,
+	y: 0.5d,
+	shape: "square",
+	tasks: [{
+		uid: "1dc05b29",
+		type: "item",
+		items: [{
+			item: "devtech:meta_bug 1 55"
+		}]
+	},
+	{
+		uid: "061a9a07",
+		type: "item",
+		items: [{
+			item: "devtech:meta_bug_data 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "84e39f88",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

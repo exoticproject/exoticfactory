@@ -1,0 +1,45 @@
+{
+	title: "ガラスのチューブ",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"回路の素材になります、大量に作りましょう"
+	],
+	dependencies: [
+		"572d9702"
+	],
+	tasks: [{
+		uid: "e475858e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 17"
+		}]
+	},
+	{
+		uid: "1876f10f",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	},
+	{
+		uid: "434a9538",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 517"
+		}]
+	},
+	{
+		uid: "4b5c14e7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "07934594",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}
