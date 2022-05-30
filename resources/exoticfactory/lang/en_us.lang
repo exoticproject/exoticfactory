@@ -44,7 +44,22 @@ recipemap.parts_assembler_recipe.name=Parts Assembler
 devtech.machine.machine_assembler.steel.name=High Pressure Steam Machine Assembler
 devtech.machine.machine_assembler.lv.name=Basic Machine Assembler
 devtech.machine.machine_assembler.mv.name=Advanced Machine Assembler
+devtech.machine.machine_assembler.hv.name=Advanced Machine Assembler Ⅱ
+devtech.machine.machine_assembler.ev.name=Advanced Machine Assembler Ⅲ
+devtech.machine.machine_assembler.iv.name=Elite Machine Assembler
+devtech.machine.machine_assembler.luv.name=Elite Machine Assembler Ⅱ
+devtech.machine.machine_assembler.zpm.name=Elite Machine Assembler Ⅲ
+devtech.machine.machine_assembler.uv.name=Ultimate Machine Assembler
+devtech.machine.machine_assembler.uhv.name=Ultimate Machine Assembler Ⅱ
+
 
 devtech.machine.parts_assembler.steel.name=High Pressure Steam Parts Assembler
 devtech.machine.parts_assembler.lv.name=Basic Parts Assembler
 devtech.machine.parts_assembler.mv.name=Advanced Parts Assembler
+devtech.machine.parts_assembler.hv.name=Advanced Parts Assembler Ⅱ
+devtech.machine.parts_assembler.ev.name=Advanced Parts Assembler Ⅲ
+devtech.machine.parts_assembler.iv.name=Elite Parts Assembler
+devtech.machine.parts_assembler.luv.name=Elite Parts Assembler Ⅱ
+devtech.machine.parts_assembler.zpm.name=Elite Parts Assembler Ⅲ
+devtech.machine.parts_assembler.uv.name=Ultimate Parts Assembler
+devtech.machine.parts_assembler.uhv.name=Ultimate Parts Assembler Ⅱ
