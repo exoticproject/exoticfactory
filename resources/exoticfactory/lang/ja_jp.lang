@@ -24,6 +24,7 @@ tile.exoticfactory.bug_summoning_altar.name=EXO : バグ召喚祭壇コントロ
 tile.exoticfactory.bug_working_chamber_mk1.name=EXO : 基本バグ労働チャンバー
 
 requious.jei.recipe.basic_bug_working_chamber=基本型バグ労働
+requious.jei.recipe.basic_bug_summoning_chamber=基本型バグ召喚
 
 multiblocked.recipe_map.advanced_blast_furnace=EXO : 強化高炉
 multiblocked.recipe_map.bug_summoning_altar=EXO : バグ召喚祭壇

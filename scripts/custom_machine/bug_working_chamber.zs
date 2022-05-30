@@ -11,7 +11,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 createBugWorkingChamber(<assembly:basic_bug_working_chamber>,0.0,25600,bug_basic,bns_liquid_basic,8,16,200);
 
-global createBugWorkingChamber as function(Assembly,float,int,ILiquidStack[string],float[ILiquidStack],int,int,int)void = function (machine as Assembly,bonus_chance as float,energy as int,bug_list as ILiquidStack[string],bns_list as float[ILiquidStack],out_min as int,out_max as int,duration as int) as void{
+global createBugWorkingChamber as function(Assembly,float,int,string[],float[ILiquidStack],int,int,int)void = function (machine as Assembly,bonus_chance as float,energy as int,bug_list as string[],bns_list as float[ILiquidStack],out_min as int,out_max as int,duration as int) as void{
     machine.setItemSlot(3,2, ComponentFace.side(),64).setAccess(true, false).setGroup("input");
     machine.setFluidSlot(2,2, ComponentFace.side(),8000).setAccess(true, false).setGroup("input");
     machine.setEnergySlot(1,2,ComponentFace.all(),energy).setAccess(true,false).setGroup("input");
@@ -27,7 +27,7 @@ global createBugWorkingChamber as function(Assembly,float,int,ILiquidStack[strin
     machine.setJEIItemSlot(5,1,"output");
     machine.setJEIItemSlot(6,1,"output_bug");
 
-    for orename, liquidname in bug_list {
+    for orename in bug_list {
         for bns_liquid,chance in bns_list{
         var final_chance = chance + bonus_chance;
         var mining = mods.requious.AssemblyRecipe.create(function(container) {

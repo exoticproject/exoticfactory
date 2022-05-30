@@ -138,7 +138,7 @@ machine_assembler_recipe.recipeBuilder()
     .buildAndRegister();
 
 
-for orename,liquidname in bug_basic{
+for orename in bug_basic{
     <recipemap:compressor>.recipeBuilder()
         .inputs(oreDict["ore" + orename]*64)
         .outputs(oreDict["oreBox" + orename].firstItem)
