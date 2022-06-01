@@ -9,24 +9,26 @@ import mods.requious.RecipeContainer;
 import mods.requious.Assembly;
 import crafttweaker.liquid.ILiquidStack;
 
-createBugWorkingChamber(<assembly:basic_bug_working_chamber>,0.0,25600,bug_basic,bns_liquid_basic,8,16,200);
+var basic_work = <assembly:basic_bug_working_chamber>;
 
-global createBugWorkingChamber as function(Assembly,float,int,string[],float[ILiquidStack],int,int,int)void = function (machine as Assembly,bonus_chance as float,energy as int,bug_list as string[],bns_list as float[ILiquidStack],out_min as int,out_max as int,duration as int) as void{
-    machine.setItemSlot(3,2, ComponentFace.side(),64).setAccess(true, false).setGroup("input");
-    machine.setFluidSlot(2,2, ComponentFace.side(),8000).setAccess(true, false).setGroup("input");
-    machine.setEnergySlot(1,2,ComponentFace.all(),energy).setAccess(true,false).setGroup("input");
-    machine.setDurationSlot(4,2).setVisual(SlotVisual.arrowRight()).setGroup("duration");
-    machine.setItemSlot(5,2,ComponentFace.all(),256).setAccess(false, true).setHandAccess(false, true).setGroup("output");
-    machine.setItemSlot(6,2,ComponentFace.all(),256).setAccess(false, true).setHandAccess(false, true).setGroup("output");
-    machine.setItemSlot(7,2,ComponentFace.all(),64).setAccess(false, true).setHandAccess(false, true).setGroup("output_bug");
+basic_work.setItemSlot(3,2, ComponentFace.side(),64).setAccess(true, false).setGroup("input");
+basic_work.setFluidSlot(2,2, ComponentFace.side(),8000).setAccess(true, false).setGroup("input");
+basic_work.setEnergySlot(1,2,ComponentFace.all(),25600).setAccess(true,false).setGroup("input");
+basic_work.setDurationSlot(4,2).setVisual(SlotVisual.arrowRight()).setGroup("duration");
+basic_work.setItemSlot(5,2,ComponentFace.all(),256).setAccess(false, true).setHandAccess(false, true).setGroup("output");
+basic_work.setItemSlot(6,2,ComponentFace.all(),256).setAccess(false, true).setHandAccess(false, true).setGroup("output");
+basic_work.setItemSlot(7,2,ComponentFace.all(),64).setAccess(false, true).setHandAccess(false, true).setGroup("output_bug");
 
-    machine.setJEIItemSlot(3,1,"input");
-    machine.setJEIFluidSlot(2,1,"input");
-    machine.setJEIEnergySlot(1,1,"input");
-    machine.setJEIDurationSlot(4,1,"duration",SlotVisual.arrowRight());
-    machine.setJEIItemSlot(5,1,"output");
-    machine.setJEIItemSlot(6,1,"output_bug");
+basic_work.setJEIItemSlot(3,1,"input");
+basic_work.setJEIFluidSlot(2,1,"input");
+basic_work.setJEIEnergySlot(1,1,"input");
+basic_work.setJEIDurationSlot(4,1,"duration",SlotVisual.arrowRight());
+basic_work.setJEIItemSlot(5,1,"output");
+basic_work.setJEIItemSlot(6,1,"output_bug");
 
+
+
+global addBugWorkingChamber as function(Assembly,float,int,string[],float[ILiquidStack],int,int,int)void = function (machine as Assembly,bonus_chance as float,energy as int,bug_list as string[],bns_list as float[ILiquidStack],out_min as int,out_max as int,duration as int) as void{
     for orename in bug_list {
         for bns_liquid,chance in bns_list{
         var final_chance = chance + bonus_chance;

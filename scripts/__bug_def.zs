@@ -4,6 +4,8 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 //                                                          Basic以上のみで処理可能
 
+global bug_basic_cost as int = 16;
+
 global bug_basic as string[] = [
     "Iron",
     "Gold",
@@ -49,28 +51,14 @@ global bns_liquid_ultimate as float[ILiquidStack] = {
 
 
 //以下、下位互換を追加するやつ
-for a in bug_basic{
-    bug_advanced += a;
-}
-
 for a,b in bns_liquid_basic{
     bns_liquid_advanced[a] = b;
-}
-
-for a in bug_advanced{
-    bug_elite += a;
-    bug_ultimate += a;
 }
 
 for a,b in bns_liquid_advanced{
     bns_liquid_elite[a] = b;
     bns_liquid_ultimate[a] = b;
 }
-
-for a in bug_elite{
-    bug_ultimate += a;
-}
-
 for a,b in bns_liquid_elite{
     bns_liquid_ultimate[a] = b;
 }

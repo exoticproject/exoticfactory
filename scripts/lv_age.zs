@@ -146,4 +146,3 @@ for orename in bug_basic{
         .duration(400)
         .buildAndRegister();
 }
-
