@@ -10,6 +10,9 @@
     "type": "fluid_spring",
     "chance": 0.40
   },
+    "dimension_filter": [
+    "name:overworld"
+  ],
   "biome_modifier": {
     "type": "biome_dictionary",
     "sandy": 5

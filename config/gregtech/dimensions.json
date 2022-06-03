@@ -5,6 +5,10 @@
       "dimName": "Overworld"
     },
     {
+      "dimID": -6,
+      "dimName": "Miningworld"
+    },
+    {
       "dimID": 1,
       "dimName": "End"
     },
