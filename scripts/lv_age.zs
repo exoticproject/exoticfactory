@@ -18,6 +18,7 @@ val lv_main_cable_1x = <ore:cableGtSingleTin>;
 recipes.remove(<gregtech:machine:1001>);
 recipes.remove(<gregtech:meta_item_1:402>);
 recipes.remove(<gregtech:metal_casing:2>);
+recipes.remove(<aroma1997sdimension:miningmultitool>);
 // Good Circuit Board * 1
 <recipemap:chemical_reactor>.findRecipe(30, [<metaitem:foilSilver> * 4, <metaitem:board.phenolic>], [<liquid:sodium_persulfate> * 200]).remove();
 

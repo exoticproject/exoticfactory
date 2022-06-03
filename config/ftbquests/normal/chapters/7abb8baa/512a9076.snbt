@@ -1,0 +1,13 @@
+{
+	x: 1.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "0e7ca86c",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:dimensionchanger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
