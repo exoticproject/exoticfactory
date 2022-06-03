@@ -27,16 +27,16 @@ global addBugSummoningChamber as function(Assembly,int,string[],int)void = funct
         var summoning = mods.requious.AssemblyRecipe.create(function(container) {
             container.addItemOutput("output_bug",oreDict["bug" + orename].firstItem);
         })
-        .requireItem("input",oreDict["oreBox" + orename] * 10)
-        .requireItem("input",oreDict["block" + orename] * 256)
+        .requireItem("input",oreDict["oreBox" + orename] * 5)
+        .requireItem("input",oreDict["block" + orename] * 64)
         .requireDuration("duration",duration)
         .requireEnergy("input",energy);
 
         var summoningJEI = mods.requious.AssemblyRecipe.create(function(container) {
             container.addItemOutput("output_bug",oreDict["bug" + orename].firstItem);
         })
-        .requireItem("input",oreDict["oreBox" + orename] * 10)
-        .requireItem("input",oreDict["block" + orename] * 256)
+        .requireItem("input",oreDict["oreBox" + orename] * 5)
+        .requireItem("input",oreDict["block" + orename] * 64)
         .requireDuration("duration",duration)
         .requireEnergy("input",energy);
 

@@ -1,10 +1,15 @@
 #priority 9000
 
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 //                                                          Basic以上のみで処理可能
 
 global bug_basic_cost as int = 16;
+
+global matter_item as int[IItemStack] = {
+    <minecraft:dirt> : 1
+};
 
 global bug_basic as string[] = [
     "Iron",
